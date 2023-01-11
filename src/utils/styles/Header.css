@@ -1,0 +1,22 @@
+.nav_container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_logo {
+  height: 60px;
+}
+
+.nav_link {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  color: #f96061;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+}
