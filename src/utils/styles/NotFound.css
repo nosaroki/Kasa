@@ -1,0 +1,34 @@
+.main_error_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_error_h1 {
+  margin: unset;
+  color: #ff6060;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 410.69px;
+}
+
+.main_error_text {
+  color: #ff6060;
+  width: 100%;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  text-align: center;
+}
+
+.main_error_link {
+  width: 100%;
+  color: #ff6060;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  padding: 130px;
+  text-align: center;
+  text-decoration-line: underline;
+}
