@@ -1,6 +1,6 @@
 // import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-import Accommodations from '../../accommodations.json'
+import Accommodations from '../../utils/accommodations.json'
 import '../../utils/styles/Cards.css'
 
 function Cards() {
@@ -18,7 +18,7 @@ function Cards() {
             style={{ backgroundImage: `url(${elem.cover})` }}
           >
             <div className="accommodation_card_filter">
-              <h2>{elem.title}</h2>
+              <h2 className="accommodation_card_title">{elem.title}</h2>
             </div>
           </article>
         )

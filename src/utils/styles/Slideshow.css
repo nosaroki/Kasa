@@ -1,0 +1,31 @@
+.slideshow_picture {
+  background-color: #f96060;
+  width: 100%;
+  height: 415px;
+  mix-blend-mode: normal;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.slideshow_arrows {
+  color: chocolate;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.left_arrow,
+.right_arrow {
+  position: absolute;
+  bottom: 222px;
+  height: 100%;
+  /* display: flex; */
+  /* align-items: center; */
+  font-size: 42px;
+  color: white;
+  cursor: pointer;
+}
+
+.right_arrow {
+  left: 830px;
+}
