@@ -1,6 +1,5 @@
 .collapse {
-  margin: 2em 4em;
-  width: 88%;
+  margin-bottom: 2em;
 }
 
 .collapse_top {
@@ -36,4 +35,15 @@
   padding: 1em 1em 0.1em 1em;
   position: relative;
   z-index: -1;
+}
+
+@media screen and (min-width: 345px) and (max-width: 767px) {
+  .collapse {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .collapse_top {
+    height: 30px;
+  }
 }

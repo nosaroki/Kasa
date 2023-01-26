@@ -32,3 +32,15 @@
   text-align: center;
   text-decoration-line: underline;
 }
+
+@media screen and (min-width: 345px) and (max-width: 767px) {
+  .main_error_h1 {
+    font-size: 96px;
+    line-height: 142.6%;
+    padding-top: 130px;
+  }
+
+  .main_error_text {
+    font-size: 18px;
+  }
+}

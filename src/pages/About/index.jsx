@@ -15,7 +15,7 @@ function About() {
     <div>
       <main className="about">
         <img className="about_img" src={Mountains} alt="Montagnes" />
-        <div>
+        <div className="about_collapse">
           <Collapse props={data[0]} title={'Fiabilité'} />
           <Collapse props={data[1]} title={'Respect'} />
           <Collapse props={data[2]} title={'Service'} />

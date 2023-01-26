@@ -1,0 +1,27 @@
+.host_rating {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5em;
+}
+
+.fullStar,
+.emptyStar {
+  font-size: 18px;
+}
+
+.emptyStar {
+  color: #e3e3e3;
+}
+
+@media screen and (min-width: 345px) and (max-width: 767px) {
+  .host_rating {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fullStar,
+  .emptyStar {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}

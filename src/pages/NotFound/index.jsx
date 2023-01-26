@@ -11,7 +11,7 @@ function NotFound() {
           Oups! La page que vous demandez n'existe pas.
         </h2>
         <Link className="main_error_link" to="/">
-          Retourner sur la page d'Accueil
+          Retourner sur la page d'accueil
         </Link>
       </div>
     </main>

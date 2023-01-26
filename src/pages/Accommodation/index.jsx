@@ -5,8 +5,9 @@ import Accommodations from '../../utils/accommodations.json'
 import Collapse from '../../components/Collapse'
 import NotFound from '../NotFound'
 import Carrousel from '../../components/Slideshow'
-// import Tags from '../../components/Tags'
-// import Rating from '../../components/Rating'
+import HostName from '../../components/HostName'
+import Tags from '../../components/Tags'
+import Rating from '../../components/Rating'
 
 function Accomodation() {
   const { id } = useParams(window.location.href)
@@ -22,18 +23,16 @@ function Accomodation() {
         <div className="accommodation_details_left">
           <h1 className="accommodation_title">{accommodation.title}</h1>
           <h2 className="accommodation_location">{accommodation.location}</h2>
-          {/* <Tags tags={accommodation.tags} /> */}
-          <div> tag={accommodation.tags} </div>
+          <div className="accommodation_tags">
+            <Tags tags={accommodation.tags} />
+          </div>
         </div>
+
         <div className="accommodation_details_right">
-          {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
-          <img
-            src={accommodation.host.picture}
-            // eslint-disable-next-line no-template-curly-in-string
-            alt="{`Photo de '${accommodation.host.name}`}"
-          />
-          {/* <Rating rating={accommodation.rating}/> */}
-          <div>rating={accommodation.rating}</div>
+          <div className="accommodation_hostCard">
+            <Rating rating={accommodation.rating} />
+            <HostName host={accommodation.host} />
+          </div>
         </div>
       </section>
       <section className="accommodation_collapse">
