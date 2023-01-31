@@ -5,8 +5,6 @@ function Carrousel({ slideshow }) {
   let [displayPicture, changePicture] = useState(0)
   let pictureNumber = slideshow.length
 
-  console.log(slideshow.length)
-
   const nextSlide = () => {
     if (displayPicture === 0) {
       changePicture(pictureNumber - 1)

@@ -46,4 +46,8 @@
   .collapse_top {
     height: 30px;
   }
+
+  .collapse_title {
+    font-size: 13px;
+  }
 }

@@ -28,6 +28,3 @@ function Cards() {
 }
 
 export default Cards
-
-//   div className="card" key={logement.id}>
-// 	 <img className="img" src={logement.cover} alt="logement" />

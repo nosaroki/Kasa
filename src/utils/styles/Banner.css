@@ -1,7 +1,6 @@
 .banner {
   position: relative;
   align-self: center;
-  /* max-width: 1300px; */
 }
 
 .banner_img {
@@ -11,13 +10,8 @@
   width: 100%;
 }
 .banner_text {
-  /* display: flex;
-  flex-wrap: nowrap; */
-
   color: #fff;
-
   display: flex;
-  /* flex-wrap: nowrap; */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -31,17 +25,6 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 68.45px;
-
-  /* 
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  margin: 0;
-  text-align: center;
-  display: inline-block;
-  white-space: nowrap; */
-  /* white-space: pre; */
 }
 
 .banner_text_p1 {
@@ -68,5 +51,14 @@
   .banner_text_p2 {
     font-size: 24px;
     line-height: 10px;
+  }
+}
+
+/* TABLETTES */
+
+@media screen and (min-width: 768px) and (max-width: 1247px) {
+  .banner_text_p1,
+  .banner_text_p2 {
+    font-size: 34px;
   }
 }
