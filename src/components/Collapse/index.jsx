@@ -22,13 +22,9 @@ function Collapse({ props, title }) {
 
   return (
     <div className="collapse">
-      <div className="collapse_top">
+      <div className="collapse_top" onClick={() => handleClick()}>
         <h3 className="collapse_title">{title}</h3>
-        <button
-          className="collapse_button"
-          type="button"
-          onClick={() => handleClick()}
-        >
+        <button className="collapse_button" type="button">
           {isOpen ? (
             <i className="fa-solid fa-chevron-up"></i>
           ) : (

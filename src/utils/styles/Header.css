@@ -19,7 +19,7 @@
   color: #f96061;
 }
 
-.nav_link:hover {
+.nav_link.active {
   text-decoration: underline;
 }
 
